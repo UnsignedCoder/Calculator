@@ -13,7 +13,8 @@ double division(double& value1, double& value2);
 void printcalculation(double& value1, double& value2);
 
 int main() {
-	double value1, value2;
+	double value1;
+	double value2;
 	getvalues(value1, value2);
 	printcalculation(value1, value2);
 	std::system("pause");
